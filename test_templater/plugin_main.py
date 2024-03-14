@@ -67,7 +67,7 @@ class TestTemplaterPlugin:
         # -- Actions
         self.action_help = QAction(
             QgsApplication.getThemeIcon("mActionHelpContents.svg"),
-            self.tr("Help"),
+            self.tr("Help Update"),
             self.iface.mainWindow(),
         )
         self.action_help.triggered.connect(
