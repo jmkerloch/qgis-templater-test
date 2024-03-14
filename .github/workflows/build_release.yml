@@ -9,8 +9,13 @@ on:
     branches:
       - main
     paths:
-      - '**.py'
       - .github/workflows/build_release.yml
+      - 'docs/**/*'
+      - "test_templater/**/*.py"
+      - "test_templater/metadata.txt"
+      - 'requirements/documentation.txt'
+    tags: 
+      - "*"
 
 
 jobs:
